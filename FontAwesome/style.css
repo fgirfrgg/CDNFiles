@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'FontAwesome';
-  src:  url('fonts/FontAwesome.eot?2ac38c');
-  src:  url('fonts/FontAwesome.eot?2ac38c#iefix') format('embedded-opentype'),
-    url('fonts/FontAwesome.ttf?2ac38c') format('truetype'),
-    url('fonts/FontAwesome.woff?2ac38c') format('woff'),
-    url('fonts/FontAwesome.svg?2ac38c#FontAwesome') format('svg');
+  src:  url('fonts/FontAwesome.eot?3y4blr');
+  src:  url('fonts/FontAwesome.eot?3y4blr#iefix') format('embedded-opentype'),
+    url('fonts/FontAwesome.ttf?3y4blr') format('truetype'),
+    url('fonts/FontAwesome.woff?3y4blr') format('woff'),
+    url('fonts/FontAwesome.svg?3y4blr#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -175,6 +176,31 @@
 .fa-inverse {
   color: #ffffff;
 }
+
+.fa-envelope-o:before {
+  content: "\f003";
+}
+.fa-check:before {
+  content: "\f00c";
+}
+.fa-clock-o:before {
+  content: "\f017";
+}
+.fa-barcode:before {
+  content: "\f02a";
+}
+.fa-tag:before {
+  content: "\f02b";
+}
+.fa-pencil:before {
+  content: "\f040";
+}
+.fa-calendar:before {
+  content: "\f073";
+}
+.fa-link:before {
+  content: "\f0c1";
+}
 .fa-search:before {
   content: "\f002";
 }
@@ -184,12 +210,6 @@
 .fa-close:before {
   content: "\f00d";
 }
-.fa-remove:before {
-  content: "\f00d";
-}
-.fa-times:before {
-  content: "\f00d";
-}
 .fa-home:before {
   content: "\f015";
 }
@@ -197,9 +217,6 @@
   content: "\f021";
 }
 .fa-edit:before {
-  content: "\f044";
-}
-.fa-pencil-square-o:before {
   content: "\f044";
 }
 .fa-arrow-up:before {
@@ -217,22 +234,10 @@
 .fa-facebook:before {
   content: "\f09a";
 }
-.fa-facebook-f:before {
-  content: "\f09a";
-}
 .fa-feed:before {
   content: "\f09e";
 }
-.fa-rss:before {
-  content: "\f09e";
-}
 .fa-bars:before {
-  content: "\f0c9";
-}
-.fa-navicon:before {
-  content: "\f0c9";
-}
-.fa-reorder:before {
   content: "\f0c9";
 }
 .fa-pinterest:before {
@@ -260,9 +265,6 @@
   content: "\f133";
 }
 .fa-dollar:before {
-  content: "\f155";
-}
-.fa-usd:before {
   content: "\f155";
 }
 .fa-youtube:before {
